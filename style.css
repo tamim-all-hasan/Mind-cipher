@@ -1,0 +1,64 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #1e1e1e;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  background: #2e2e2e;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #000;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+#feedback {
+  margin-top: 15px;
+  min-height: 20px;
+  font-weight: bold;
+}
+
+.choiceBtn {
+  margin: 5px;
+  background: #2196f3;
+}
+
+.choiceBtn:hover {
+  background: #1976d2;
+}
+
+#timer {
+  margin: 10px 0;
+}
+
+#scoreClues {
+  margin-bottom: 10px;
+}
